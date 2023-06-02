@@ -13,3 +13,6 @@ def main():
     selected_option = st.selectbox('Selecciona una opción:', options)
 
     texto_usuario = st.text_input("Texto agregado por el ususario")
+    
+if __name__ == "__main__":
+    main()

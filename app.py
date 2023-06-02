@@ -14,5 +14,10 @@ def main():
 
     texto_usuario = st.text_input("Texto agregado por el ususario")
     
+    if st.button("Enviar"):
+        st.write(f'Opciones Seleccionadas: {selected_options}')
+        st.write(f'Opcion: {selected_option}')
+        st.write(f'Ingreso del ususario: {texto_usuario}')
+    
 if __name__ == "__main__":
     main()
